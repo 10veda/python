@@ -1,0 +1,10 @@
+def rotate(f,d): 
+    Lfirst = f[0 : d] 
+    Lsecond = f[d :] 
+    Rfirst = f[0 : len(f)-d] 
+    Rsecond = f[len(f)-d : ] 
+    print (Lsecond + Lfirst) 
+    print (Rsecond + Rfirst) 
+d=int(input())
+f= input()
+rotate(f,d) 
