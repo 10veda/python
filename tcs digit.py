@@ -70,3 +70,23 @@ for i in range(0,len(n)):
         s+=n[i]
 print(s)
 
+
+
+FACTOR
+
+
+
+\\\prime
+
+n=int(input(" "))
+if n!=1:
+    for i in range(2,n):
+        if n%i==0:
+            print("not prime")
+            break
+    else:
+        print("prime")
+            
+else:
+    print("Not prime")
+    
